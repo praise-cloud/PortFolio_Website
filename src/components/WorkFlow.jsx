@@ -9,7 +9,7 @@ const WorkFlow = () => {
                 </div>
 
                 <div className="relative mx-5">
-                    <div className="flex items-center justify-center py-20 px-5 gap-40">
+                    <div className="flex items-center justify-center pt-20 px-5 gap-40">
                         <div className="flex items-center gap-5">
                             <div className="text-xl font-normal mb-4">01</div>
                             <h3 className="text-7xl font-semibold mb-4">Understand</h3>
@@ -18,7 +18,10 @@ const WorkFlow = () => {
                         <p className="text-left text-xl px-5 text-wrap w-2/4 leading-loose">It's important to identify your requirements first. Not knowing your business well prevents us from developing an effective approach. Adaptation strategy covers an extensive landscape. We have to come up with an approach that works for your company.</p>
                     </div>
 
-                    <div className="flex items-center justify-center pb-20 px-20 gap-40">
+                    <div className="relative flex h-0.5 w- bg-white rounded-lg bg-opacity-5"></div>
+
+
+                    <div className="flex items-center justify-center  py-20 px-20 gap-40">
                         <div className="flex items-center gap-5">
                             <div className="text-xl font-normal mb-4">02</div>
                             <h3 className="text-7xl font-semibold mb-4">Plan</h3>
@@ -49,3 +52,5 @@ const WorkFlow = () => {
         </div>
     );
 };
+
+export default WorkFlow

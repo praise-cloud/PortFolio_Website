@@ -14,10 +14,10 @@ const HomePage = () => {
 
             <div className="absolute inset-[50px] flex flex-col items-start justify-end bg-black bg-opacity-20 p-8 rounded-lg space-y-52">
 
-                <div className="p-8 rounded-lg">
-                    <h1 className="lg:text-8xl md:text-6xl text-4xl font-bold text-white leading-loose capitalize">Bringing Concepts to Digital Reality</h1>
-                    <p className="lg:text-3xl md:text-2xl text-xl text-gray-300 pt-6">Web Developer | Web Design | Web3 Enthusiast</p>
-                </div>
+                    <div className="p-8 rounded-lg">
+                        <h1 className="lg:text-8xl md:text-6xl text-4xl font-bold text-white leading-loose capitalize">Bringing Concepts to Digital Reality</h1>
+                        <p className="lg:text-3xl md:text-2xl text-xl text-gray-300 pt-6">Web Developer | Web Design | Web3 Enthusiast</p>
+                    </div>
 
                 <div className="bg-white bg-opacity-10 backdrop-blur-lg p-8 rounded-lg">
                     <div className="py-4 flex gap-10 px-6">
